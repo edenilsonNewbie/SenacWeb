@@ -1,5 +1,39 @@
+body {
+    background-color: #eee;   
+    font-family: 'Roboto', sans-serif;
+}
+
+#cabecalho {
+    border: 5px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.logo { 
+    float: left;
+}
+
+.form-pesquisa { 
+    float: left;
+    margin-top: 15px;
+    
+    
+}
+.menu {
+    float: left;
+    margin-top: 15px;
+    margin-right: 200px;
+    margin-left: 300px;
+}
+.menu-link {
+    display: inline-block;
+    margin-right: 5px;
+}
+
 h1  {
-    color: red
+    color: red;
 }
 
 img#imagem {
