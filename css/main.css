@@ -37,16 +37,39 @@ h1  {
 
 img#imagem {
     float: left;
+   
 }
 li {
     list-style: none;
     display: inline-block;
 }
-.centralizar {
-    width: 500px;
+.centralizado {
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+    text-align-last: center;
+}
+.img_esquerda {
+    float:right;
+    margin:0 20px 10px 0;
+  }
+.img-principal {
+    float: left;
+}
+
+.img-list {
+    clear: left; 
 }
 
 
+#rodape {
+    border-top: 1px solid #222;
+}
 
+#rodape p {
+    font-size: 12px;
+    text-align: center;
+}
+.email {
+    text-align: center;
+}
