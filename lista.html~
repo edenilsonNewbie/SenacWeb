@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de Filmes</title>
+
+        <!-- Importar o CSS na página   -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--  Importar a Fonte Roboto na página  -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="centralizar">
+            <!-- Adicionar Cabeçalho  -->
+            <header id="cabecalho">                
+                <!-- Adicionar .logo -->
+                <a href="index.html" class="logo">
+                    <img src="img/logo_1.png" alt="Logo IMDB" />    
+                </a>
+
+                <!-- Adicionar Menu -->
+                <nav class="menu">
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="lista.html">Lista de Filmes</a>
+                    <a class="menu-link" href="sobre.html">Sobre</a>
+                </nav>
+
+                <!-- Adicionar Campo de Pesquisa -->
+                <form class="form-pesquisa">
+                    <input type="text" name="pesquisa" />
+                    <button>Pesquisar</button>
+                </form>
+            </header>
+
+            <article class="conteudo">
+                <h1>Lista de Filmes</h1>
+
+                <ul>
+                    <li><a href="index.html">A Lagoa Azul</a></li>
+                    <li><a href="clube-da-luta.html">Clube da Luta</a></li>
+                    <li><a href="poderoso-chefao-i.html">O Poderoso Chefal I</a></li>
+                </ul>
+                
+            </article>
+
+            <!-- Adicionar Rodapé   -->
+            <footer id="rodape">
+                <p>
+                    <!-- &copy; é um HTML Entities. -->
+                    &copy; CopyRight - "Site do Link" - Todos os Direitos Reservados 
+                    <br />
+
+                    <!-- E-mail de Contato -->
+                    <a href="mailto:falecom@tiago.link">falecom@tiago.link</a>
+                </p>
+            </footer>
+
+        </div>
+    </body>
+</html>
